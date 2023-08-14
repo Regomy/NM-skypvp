@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1372fed4-6147-4f42-a889-74bf611a7abe" name="Changes" comment="" />
+    <list default="true" id="1372fed4-6147-4f42-a889-74bf611a7abe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/command/BroadCast.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/command/BroadCast.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/command/BuyerNMSP.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/command/BuyerNMSP.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/command/Head.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/command/Head.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/command/Prefix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/command/Prefix.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/command/Suffix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/command/Suffix.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/listener/Anvil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/listener/Anvil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/listener/Damage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/listener/Damage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/listener/Potion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/listener/Potion.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/listener/Teleport.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/listener/Teleport.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/util/EconomyManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/util/EconomyManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/util/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/util/Utils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,20 +36,101 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NM-skypvp" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="NM-skypvp.main/invalid/Minecraft" />
+    </ignored-facets>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2NLvcojL4olJip3chHfigYiQjEw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/Майнкрафт/Server/Плагины/myPlugins/SkyPvP-MiniGames&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\Майнкрафт\Server\Плагины\myPlugins\NM-skypvp\src\main\kotlin\me\rejomy\nmsp\util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\Майнкрафт\Server\Плагины\myPlugins\NM-skypvp\src\main\kotlin\me\rejomy\nmsp" />
+      <recent name="C:\Users\Admin\Desktop\Майнкрафт\Server\Плагины\myPlugins\NM-skypvp\src\main\kotlin" />
+      <recent name="C:\Users\Admin\Desktop\Майнкрафт\Server\Плагины\myPlugins\NM-skypvp\src\main\kotlin\me\rejomy\nmsp\util" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="command" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="NM-skypvp [deploy]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="deploy" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,8 +139,85 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679456311607</updated>
-      <workItem from="1679456313016" duration="1000" />
+      <workItem from="1679456313016" duration="686000" />
+      <workItem from="1679458485590" duration="19000" />
+      <workItem from="1679468298623" duration="18000" />
+      <workItem from="1679538780057" duration="2591000" />
+      <workItem from="1679545275364" duration="6747000" />
+      <workItem from="1679561325817" duration="7060000" />
+      <workItem from="1679572450400" duration="2499000" />
+      <workItem from="1679632910090" duration="6000" />
+      <workItem from="1679648682161" duration="1184000" />
+      <workItem from="1679668026521" duration="235000" />
+      <workItem from="1679669602747" duration="1752000" />
+      <workItem from="1679795797239" duration="3170000" />
+      <workItem from="1680137926363" duration="234000" />
+      <workItem from="1680240632106" duration="66000" />
+      <workItem from="1680256790019" duration="980000" />
+      <workItem from="1680275664667" duration="61000" />
+      <workItem from="1680321818504" duration="767000" />
+      <workItem from="1680322897465" duration="28000" />
+      <workItem from="1680928719144" duration="66000" />
+      <workItem from="1681530248881" duration="17000" />
+      <workItem from="1681530441478" duration="79000" />
+      <workItem from="1681629994693" duration="1348000" />
+      <workItem from="1682912000322" duration="1316000" />
+      <workItem from="1682916882791" duration="319000" />
+      <workItem from="1683550328466" duration="830000" />
+      <workItem from="1683618824709" duration="1574000" />
+      <workItem from="1683622233534" duration="11000" />
+      <workItem from="1683720275327" duration="1346000" />
+      <workItem from="1683725903315" duration="155000" />
+      <workItem from="1683821336352" duration="657000" />
+      <workItem from="1683893482142" duration="151000" />
+      <workItem from="1683987024623" duration="914000" />
+      <workItem from="1683995051901" duration="286000" />
+      <workItem from="1684073493179" duration="749000" />
+      <workItem from="1684158991072" duration="206000" />
+      <workItem from="1684164368160" duration="42000" />
+      <workItem from="1684223153143" duration="711000" />
+      <workItem from="1684224616574" duration="223000" />
+      <workItem from="1684328859550" duration="576000" />
+      <workItem from="1684422588351" duration="106000" />
+      <workItem from="1684583216601" duration="734000" />
+      <workItem from="1684659211669" duration="94000" />
+      <workItem from="1684660668373" duration="6519000" />
+      <workItem from="1687329426447" duration="975000" />
+      <workItem from="1687436528209" duration="79000" />
+      <workItem from="1687615287061" duration="2715000" />
+      <workItem from="1687696447522" duration="716000" />
+      <workItem from="1687699016245" duration="271000" />
+      <workItem from="1687711332662" duration="726000" />
+      <workItem from="1687742172358" duration="419000" />
+      <workItem from="1687743873136" duration="1256000" />
+      <workItem from="1688574593880" duration="219000" />
+      <workItem from="1688619587456" duration="109000" />
+      <workItem from="1688707432015" duration="1552000" />
+      <workItem from="1689058293539" duration="811000" />
+      <workItem from="1689507857826" duration="548000" />
+      <workItem from="1689560713361" duration="2968000" />
+      <workItem from="1689575111839" duration="3039000" />
+      <workItem from="1689587329724" duration="2031000" />
+      <workItem from="1689736744473" duration="9098000" />
+      <workItem from="1689760911185" duration="929000" />
+      <workItem from="1689762026362" duration="165000" />
+      <workItem from="1689842713342" duration="995000" />
+      <workItem from="1689848841544" duration="4084000" />
+      <workItem from="1689855846142" duration="699000" />
+      <workItem from="1689860203924" duration="1192000" />
+      <workItem from="1689961059340" duration="444000" />
+      <workItem from="1689962369617" duration="652000" />
+      <workItem from="1690000794724" duration="974000" />
+      <workItem from="1690002385883" duration="511000" />
+      <workItem from="1690007995333" duration="179000" />
+      <workItem from="1690166078488" duration="3150000" />
+      <workItem from="1690297110804" duration="1088000" />
+      <workItem from="1690366031840" duration="828000" />
+      <workItem from="1691114243321" duration="2999000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

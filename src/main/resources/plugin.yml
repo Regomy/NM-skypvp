@@ -1,0 +1,19 @@
+name: NMSP
+version: 1.0
+main: me.rejomy.nmsp.Main
+commands:
+  prefix:
+    permission: nmsp.prefix
+    permission-message: §4Ошибка §8>> §7У вас недостаточно прав для выполнения данной команды!
+  suffix:
+    permission: nmsp.suffix
+    permission-message: §4Ошибка §8>> §7У вас недостаточно прав для выполнения данной команды!
+  notify:
+    permission: nmsp.notify
+    permission-message: §4Ошибка §8>> §7У вас недостаточно прав для выполнения данной команды!
+  buyernmsp:
+  head:
+    permission: nmsp.head
+    permission-message: §4Ошибка §8>> §7У вас недостаточно прав для выполнения данной команды!
+    aliases:
+      - skull

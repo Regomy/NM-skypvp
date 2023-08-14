@@ -1,4 +1,4 @@
-package me.rejomy.heroes.util
+package me.rejomy.nmsp.util
 
 import net.milkbowl.vault.economy.Economy
 import org.bukkit.Bukkit
@@ -24,7 +24,7 @@ object EconomyManager {
         e!!.depositPlayer(p, money)
     }
 
-    fun getBalance(p: Player?): Double {
+    fun getBalance(p: Player): Double {
         return e!!.getBalance(p)
     }
 }

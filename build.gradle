@@ -1,35 +1,63 @@
 plugins {
-    kotlin("jvm") version "1.8.0"
-    application
+    id 'org.jetbrains.kotlin.jvm' version '1.7.21'
+    id 'application'
 }
 
-group = "me.rejomy"
-version = "1.0-SNAPSHOT"
+group = 'me.rejomy'
+version = '1.0-SNAPSHOT'
+
+
+jar {
+    duplicatesStrategy DuplicatesStrategy.EXCLUDE
+    from { configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
 
 repositories {
     mavenCentral()
-    maven("https://oss.sonatype.org/content/repositories/snapshots")
-    maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
+    maven { url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+    maven { url 'https://jitpack.io'}
+    flatDir {
+        dirs 'lib'
+    }
+
 }
 
 dependencies {
-    testImplementation(kotlin("test"))
-    compileOnly("org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT")
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    compileOnly 'org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT'
+    compileOnly "com.github.MilkBowl:VaultAPI:1.7"
 }
 
-tasks.test {
+test {
     useJUnitPlatform()
 }
 
-tasks.jar {
-    duplicatesStrategy Duplica
-            from { configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
+processResources {
+    doFirst {
+        file("$buildDir/main").listFiles().each {
+            it.delete()
+        }
+    }
 }
 
-kotlin {
-    jvmToolchain(8)
+compileKotlin {
+    kotlinOptions.jvmTarget = '1.8'
+}
+
+compileTestKotlin {
+    kotlinOptions.jvmTarget = '1.8'
+}
+
+task deploy(type: Copy) {
+    from jar
+    into file('C:\\Users\\Admin\\Desktop\\Майнкрафт\\Server\\Локальные хосты\\testserver\\plugins')
 }
 
 application {
-    mainClass.set("MainKt")
+    mainClassName = 'MainKt'
 }

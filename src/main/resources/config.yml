@@ -1,0 +1,12 @@
+message:
+  bad-argument: "При вводе /%cmd нужно написать еще 1 аргумент /%cmd ваш текст"
+  bad-length: "bad length /%cmd"
+  bad-delay: "Вы сможете выполнить %cmd через 3 минуты"
+  success: "Введя /%cmd Вы успешно установили себе значение %prefix"
+  success-head: "Введя %cmd Вы успешно выдали себе голову"
+
+command:
+  bc: true
+  head: true
+  prefix: true
+  suffix: true
