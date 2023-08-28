@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1372fed4-6147-4f42-a889-74bf611a7abe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/command/BroadCast.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/command/BroadCast.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/command/BuyerNMSP.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/command/BuyerNMSP.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/command/Head.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/command/Head.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/command/Prefix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/command/Prefix.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/command/Suffix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/command/Suffix.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/listener/Anvil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/listener/Anvil.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/listener/Damage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/listener/Damage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/listener/Potion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/listener/Potion.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/listener/Teleport.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/listener/Teleport.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/util/EconomyManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/util/EconomyManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/util/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/rejomy/nmsp/util/Utils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +111,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
   </component>
